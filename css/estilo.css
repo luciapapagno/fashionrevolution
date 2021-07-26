@@ -161,7 +161,8 @@
     margin-right: auto;
     font-size: .9em;
     grid-area: galeria;
-    width: 50%; }
+    width: 50%;
+    padding-bottom: 3em; }
 
 .bannerContacto {
   position: relative;
@@ -324,7 +325,8 @@ body {
     margin-left: auto;
     margin-right: auto; }
     .bannerIndex .linkCarousel p {
-      font-size: 10rem; }
+      font-size: 10rem;
+      font-size: bold; }
   .bannerIndex h2 {
     padding-top: 0; }
 
@@ -368,9 +370,19 @@ a {
   grid-area: footer;
   display: flex;
   justify-content: space-between;
-  padding: 1rem; }
+  flex-direction: row;
+  margin-right: 1.5em;
+  margin-left: 1.5em; }
   .footer .redes {
-    padding-right: 1em; }
+    padding-right: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center; }
+    .footer .redes h6 {
+      color: #905c44;
+      font-size: .8em;
+      padding-left: .5em;
+      padding-right: 1em; }
 
 ul li {
   display: inline-block;
@@ -419,8 +431,15 @@ ul li {
     padding-top: 0;
     background: linear-gradient(white, #efe7e5, white); }
   .footer {
-    padding-left: .5em;
-    padding-right: .9em; }
+    padding-left: .2em;
+    padding-right: .9em;
+    display: flex; }
+    .footer .redes {
+      display: flex;
+      padding-right: .5em; }
+      .footer .redes h6 {
+        font-size: .6em;
+        margin-bottom: 1em; }
   .footer ul li {
     font-size: .8em; }
   .contenedor {
